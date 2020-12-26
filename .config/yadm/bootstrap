@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+apt install tmux
+apt install neovim
+
+cat <<EOF >> $HOME/.bashrc
+if [[ -f ~/.bash_aliases ]]; then
+  source ~/.bash_aliases
+fi
+
+if [[ -f ~/.bash_functions  ]]; then
+  source ~/.bash_functions
+fi
+EOF
