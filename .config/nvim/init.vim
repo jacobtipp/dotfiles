@@ -10,6 +10,8 @@ Plug 'neoclide/coc-snippets'
 Plug 'neoclide/coc-tsserver'
 Plug 'neoclide/coc-prettier'
 Plug 'w0ng/vim-hybrid'
+Plug 'noahfrederick/vim-noctu'
+Plug 'jeffkreeftmeijer/vim-dim'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
@@ -44,9 +46,11 @@ set expandtab
 
 " colors
 set background=dark
-colorscheme hybrid
+colorscheme noctu
 let g:airline_theme='minimalist'
 let g:colorizer_maxlines=1000
+hi CocFloating ctermbg=black
+hi StatusLine ctermbg=black
 
 " Emmet Config
 let g:user_emmet_leader_key='<c-m>'
