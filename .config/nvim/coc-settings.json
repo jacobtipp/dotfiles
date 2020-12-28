@@ -1,10 +1,5 @@
 {
-  "tsserver.npm": "/home/jacob/.nvm/versions/node/v14.5.3/bin/npm",
-  "tsserver.log": "verbose",
-  "tsserver.trace.server": "verbose",
-
-  // Run prettier (and others)
-
+  "suggest.enablePreview": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "markdown",
