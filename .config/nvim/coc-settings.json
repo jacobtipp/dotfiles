@@ -1,4 +1,7 @@
 {
+  "html.autoClosingTags": true,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.format.indentHandlebars": true,
   "suggest.enablePreview": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
