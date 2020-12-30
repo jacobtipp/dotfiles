@@ -25,7 +25,7 @@ call plug#end()
 filetype plugin indent on
 
 " Leader key is SPACE, I find it the best
-let mapleader = " "
+let mapleader = ","
 
 syntax enable
 set background=dark
@@ -149,9 +149,4 @@ let g:coc_global_extensions = ['coc-tsserver', 'coc-json', 'coc-snippets', 'coc-
 " Add CoC Prettier if prettier is installed
 if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
   let g:coc_global_extensions += ['coc-prettier']
-endif
-
-" Add CoC ESLint if ESLint is installed
-if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
-  let g:coc_global_extensions += ['coc-eslint']
 endif
