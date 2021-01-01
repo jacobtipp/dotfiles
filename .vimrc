@@ -24,7 +24,7 @@ Plug 'tpope/vim-fugitive'
 call plug#end()
 filetype plugin indent on
 
-" Leader key is SPACE, I find it the best
+" Leader key is comma, I find it the best
 let mapleader = ","
 
 syntax enable
