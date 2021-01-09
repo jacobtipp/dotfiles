@@ -1,4 +1,10 @@
 {
+  "languageserver": {
+    "kotlin": {
+      "command": "/home/jacob/projects/kotlin-language-server/server/bin/kotlin-language-server",
+      "filetypes": ["kotlin"]
+    }
+  },
   "html.autoClosingTags": true,
   "html.format.wrapAttributes": "force-expand-multiline",
   "html.format.indentHandlebars": true,
