@@ -8,6 +8,7 @@ endif
 
 filetype off
 call plug#begin('~/.vim/plugged')
+Plug 'mikelue/vim-maven-plugin'
 Plug 'sheerun/vim-polyglot'
 Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
